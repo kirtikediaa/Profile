@@ -20,8 +20,8 @@ return (
         <div className='mx-5 my-2 d-flex ' >
             <img  className="rounded-circle float-left col-lg-1" src={props.profilepicture} alt={props.id}/>
             {/* <p key={props.id} className='text-dark py-auto fs-5 m-2 '>{props.name}</p> */}
-            {/* <Link className=' ' to={`/people/${props.id}`}>Details</Link> */}
-            <Link key={props.id} className='text-dark py-auto fs-5 m-2 ' to="/people">{props.name}</Link>
+            <Link className='text-decoration-none text-dark py-auto fs-5 m-2 ' to={`/people/${props.id}`}>{props.name}</Link>
+            {/* <Link key={props.id} className='text-dark py-auto fs-5 m-2 ' to="/people">{props.name}</Link> */}
        </div>
        <hr className='bg-dark mx-5'></hr>
        </div>
