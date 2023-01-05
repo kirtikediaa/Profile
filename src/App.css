@@ -1,0 +1,95 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.design{
+  height: 80vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+/* .design::-webkit-scrollbar {
+  
+  border-radius: 20px;
+  background-color: lightgrey;
+   */
+
+/* .design::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+} */
+body{
+  /* background-color: white; */
+  
+}
+.landing{
+  border-radius: 5%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: -5%;
+  background-color: white;
+}
+.wave{
+    height:25vh; 
+    background: linear-gradient(to bottom right, rgb(98, 8, 242), rgb(162, 152, 231));
+}
+.section2{
+  height:3vh;
+  background: linear-gradient(to bottom right, #caa9ff, #fdfdfd);
+}
+.profile{
+  background-color:#7337e3;
+  height:100vh; 
+  border-radius:25px;
+}
+.Navbar{
+  width: 70vw;
+  margin-top: 70px;
+  margin-right: 0;
+}
+.line {
+  border-top: 3px solid rgb(82, 82, 82);
+}
+.end{
+
+}
+.lines {
+  border-left: 1px solid rgb(149, 147, 147);
+}
+.map{
+  height: 50vh;
+width: 39vw;
+}
