@@ -1,10 +1,26 @@
 import React from "react";
-import data from "./peopleData";
-import { useParams, Link } from "react-router-dom";
+// import data from "./peopleData";
+// import { useParams, Link } from "react-router-dom";
 import "./App.css";
 
 const People = () => {
-    // const {id}= useParams();
+  // const { id } = useParams()
+  // const [user, setUser] = useState(null)
+ 
+  // useEffect(() => {
+  //   async function fetchData() {
+  //     try {
+  //       const response = await fetch(Data)
+  //       const data = await response.json()
+  //       const user = data.find(item => item.id === id)
+  //       setUser(user)
+  //       console.log(user)
+  //     } catch (error) {
+  //       console.log("error")
+  //     }
+  //   }
+  //   fetchData()
+  // }, [id])
 
   return (
     <>
@@ -25,7 +41,7 @@ const People = () => {
                 <img
               className="rounded-circle float-right col-lg-1"
               src="/image2.jpg"
-              alt="Picture"
+              alt="girl"
             />
             <p className="text-dark text-right fs-5 m-2">Melinda Thomas</p>
             </div>
@@ -37,7 +53,7 @@ const People = () => {
             <img
               className="rounded-circle float-left col-lg-4"
               src="/image2.jpg"
-              alt="Picture"
+              alt="girl"
             />
             <p className="text-dark fs-4">Melinda Thomas</p>
           <p className="fs-5">Username:</p>

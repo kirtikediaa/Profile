@@ -6,23 +6,23 @@ import "./App.css";
 import Data from "./peopleData"
 
 const Xyz = () => {
-    const { id } = useParams()
-    const [user, setUser] = useState(null)
+    // const { id } = useParams()
+    // const [user, setUser] = useState(null)
    
-    useEffect(() => {
-      async function fetchData() {
-        try {
-          const response = await fetch(Data)
-          const data = await response.json()
-          const user = data.find(item => item.id === id)
-          setUser(user)
-          console.log(user)
-        } catch (error) {
-          console.log("error")
-        }
-      }
-      fetchData()
-    }, [id])
+    // useEffect(() => {
+    //   async function fetchData() {
+    //     try {
+    //       const response = await fetch(Data)
+    //       const data = await response.json()
+    //       const user = data.find(item => item.id === id)
+    //       setUser(user)
+    //       console.log(user)
+    //     } catch (error) {
+    //       console.log("error")
+    //     }
+    //   }
+    //   fetchData()
+    // }, [id])
 
   
     return (
